@@ -1,15 +1,14 @@
-'use client';
+"use client";
 
-import { useParams, useRouter } from 'next/navigation';
+import { useParams, useRouter } from "next/navigation";
 // import { useParams, useRouter } from 'next/navigation';
 // import { useQuery } from '@tanstack/react-query';
 
 // import { fetchPostById, fetchUserById } from '@/lib/api';
 
-import css from './PostDetails.module.css';
-import { useEffect } from 'react';
-import { keepPreviousData, useQuery } from '@tanstack/react-query';
-import { fetchPostById } from '@/lib/api';
+import css from "./PostDetails.module.css";
+import { keepPreviousData, useQuery } from "@tanstack/react-query";
+import { fetchPostById } from "@/lib/api";
 // import { User } from '@/types/user';
 
 export default function PostDetailsClient() {
@@ -21,7 +20,7 @@ export default function PostDetailsClient() {
   };
 
   const { data } = useQuery({
-    queryKey: ['posts', id],
+    queryKey: ["posts", id],
     queryFn: () => fetchPostById(id),
     placeholderData: keepPreviousData,
     refetchOnMount: false,
