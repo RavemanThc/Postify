@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/iaiaiaiep/Documents/goit/blended/Postify/app/%40modal/loading.tsx"],"sourcesContent":["export default function Loading() {\n  return <p>Loading...</p>;\n}\n"],"names":[],"mappings":";;;;;AAAe,SAAS;IACtB,qBAAO,8OAAC;kBAAE;;;;;;AACZ","debugId":null}}]
+}

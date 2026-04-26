@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/posts/filter/layout.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"container\": \"layout-module__QEfXtW__container\",\n  \"postsWrapper\": \"layout-module__QEfXtW__postsWrapper\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA"}},
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///home/iaiaiaiep/Documents/goit/blended/Postify/app/posts/filter/layout.tsx"],"sourcesContent":["import css from './layout.module.css';\n\ntype LayoutPostsProps = {\n  children: React.ReactNode;\n  sidebar: React.ReactNode;\n};\n\nexport default function LayoutPosts({ children, sidebar }: LayoutPostsProps) {\n  return (\n    <main className={css.container}>\n      <div>{sidebar}</div>\n      <div className={css.postsWrapper}>{children}</div>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;;AAOe,SAAS,YAAY,EAAE,QAAQ,EAAE,OAAO,EAAoB;IACzE,qBACE,8OAAC;QAAK,WAAW,4IAAA,CAAA,UAAG,CAAC,SAAS;;0BAC5B,8OAAC;0BAAK;;;;;;0BACN,8OAAC;gBAAI,WAAW,4IAAA,CAAA,UAAG,CAAC,YAAY;0BAAG;;;;;;;;;;;;AAGzC","debugId":null}}]
+}

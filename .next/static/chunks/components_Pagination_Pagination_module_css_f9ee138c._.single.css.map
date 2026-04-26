@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/Pagination/Pagination.module.css"],"sourcesContent":[".pagination {\n  display: flex;\n  justify-content: center;\n  gap: 4px;\n  margin: 16px 0;\n  list-style: none;\n  padding: 0;\n  margin: 0;\n}\n\n.pagination li {\n  border-radius: 8px;\n  border: 1px solid #fff;\n  color: #fff;\n}\n\n.pagination li a {\n  border-radius: 8px;\n  display: flex;\n  width: 44px;\n  height: 44px;\n  justify-content: center;\n  align-items: center;\n  cursor: pointer;\n  color: #fff;\n}\n\n.pagination li:hover {\n  border-radius: 8px;\n  background-color: #368a01;\n}\n\n.pagination li.active:hover {\n  border-radius: 8px;\n  background-color: #368a01;\n}\n\n.active {\n  background-color: #368a01;\n}\n\n.active a {\n  color: #fff !important;\n  font-weight: 500;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;AAUA;;;;;;AAMA;;;;;;;;;;;AAWA;;;;;AAUA;;;;AAIA"}}]
+}
