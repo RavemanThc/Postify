@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/iaiaiaiep/Documents/goit/blended/Postify/app/posts/filter/%40sidebar/default.tsx"],"sourcesContent":["export default function SideBar() {\n  return <div style={{ color: 'white', backgroundColor: 'green' }}>SideBar</div>;\n}\n"],"names":[],"mappings":";;;;;AAAe,SAAS;IACtB,qBAAO,8OAAC;QAAI,OAAO;YAAE,OAAO;YAAS,iBAAiB;QAAQ;kBAAG;;;;;;AACnE","debugId":null}}]
-}
