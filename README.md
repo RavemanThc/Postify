@@ -1,4 +1,4 @@
-# 📌 Postify
+# 📌 Postly
 
 > A modern posts manager built with Next.js and JSONPlaceholder API
 
