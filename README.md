@@ -8,7 +8,7 @@
 
 ## 🌐 Live Demo
 
-👉 https://postify-6ehudkdsy-ravemanthcs-projects.vercel.app/
+👉 https://postify-chi-virid.vercel.app/
 
 ## ✨ Features
 
